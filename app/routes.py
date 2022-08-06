@@ -11,7 +11,7 @@ def index():  # our view finction
 @app.route("/about")
 def about():
     me = {
-        "first name": "Chris",
+        "first name": "Christopher",
         "last name": "Reinahrt"
     }
     return me
